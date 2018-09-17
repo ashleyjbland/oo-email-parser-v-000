@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    parser = [] << @emails.split.gsub(/,\s|\s/, ', ')
+    parser = [] << @emails.gsub(/,\s|\s/, ', ')
 
   end
 
