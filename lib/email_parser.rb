@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
     parser = @@all
-    @@all.split("\n")
+    @@all.map!{ |email| email.gsub("\n", ", ") }
   end
 
 
