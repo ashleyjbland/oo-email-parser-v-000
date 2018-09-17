@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    parser = @emails
+    parser = []
     @emails.gsub("\n", ", ")
 
   end
