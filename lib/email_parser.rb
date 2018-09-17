@@ -14,6 +14,7 @@ class EmailParser
     parser = []
     parser << @emails.gsub("\n", ", ")
     parser.uniq!
+    parser
 
   end
 
