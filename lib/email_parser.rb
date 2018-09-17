@@ -10,7 +10,6 @@ class EmailParser
   end
 
   def parse
-    emails = self.new
     parser = emails
     emails.split("\n")
   end
