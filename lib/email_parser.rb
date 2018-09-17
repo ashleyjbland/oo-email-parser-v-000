@@ -8,7 +8,6 @@ class EmailParser
   def parse
     parser = emails
     emails.split(/n)
-
   end
 
 
