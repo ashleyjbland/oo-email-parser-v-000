@@ -7,7 +7,6 @@ class EmailParser
   @@all = []
 
   def initialize(emails)
-    emails = self.new
     @@all << emails
   end
 
