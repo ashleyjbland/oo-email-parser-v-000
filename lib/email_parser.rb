@@ -7,7 +7,7 @@ class EmailParser
 
   def parse
     parser = emails
-    emails.split(/n)
+    emails.split("\n")
   end
 
 
