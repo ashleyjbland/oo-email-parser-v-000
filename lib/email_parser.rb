@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
     parser = @emails
-    @emails.map!{ |email| email.gsub("\n", ", ") }
+    @emails.gsub("\n", ", ")
 
   end
 
